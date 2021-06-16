@@ -255,7 +255,7 @@ class ImagePicker(builder: Builder) {
 
         @JvmStatic
         fun getImages(data: Intent?): ArrayList<Image> {
-            return if (data != null) data.getParcelableArrayListExtra(Config.EXTRA_IMAGES)
+            return if (data != null) data.getParcelableArrayListExtra(Config.EXTRA_IMAGES)!!
             else arrayListOf()
 
         }

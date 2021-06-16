@@ -1,2 +1,2 @@
 include ':imagepicker'
-include ':example'
+include ':sample'

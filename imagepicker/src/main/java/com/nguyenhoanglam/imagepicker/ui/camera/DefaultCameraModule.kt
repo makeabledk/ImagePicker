@@ -93,7 +93,11 @@ class DefaultCameraModule : CameraModule, Serializable {
                 } else {
                     imageReadyListener.onImageNotReady()
                 }
-                revokeAppPermission(context, uri)
+
+                uri?.let {
+                    revokeAppPermission(context, uri)
+                }
+
                 imageFilePath = null
                 imageUri = null
             }
@@ -113,5 +117,4 @@ class DefaultCameraModule : CameraModule, Serializable {
             cursor?.close()
         }
     }
-
 }
