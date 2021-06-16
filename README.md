@@ -3,7 +3,7 @@ ImagePicker
 
 An Android library that supports selecting images from the device or from the camera.
 
-[![](https://jitpack.io/v/nguyenhoanglam/ImagePicker.svg)](https://jitpack.io/#nguyenhoanglam/ImagePicker)
+[![](https://jitpack.io/v/makeabledk/imagepicker.svg)](https://jitpack.io/#makeabledk/imagepicker)
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-ImagePicker-green.svg?style=true)](https://android-arsenal.com/details/1/4072)
 
 Demo
